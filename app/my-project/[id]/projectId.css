@@ -1,0 +1,43 @@
+.project-share{
+    float: right;
+    /* background-color: red; */
+}
+.myProject-button{
+    width: 100%;
+    /* background-color: red !important; */
+}
+.containerDropzone {
+    /* display: flex;
+    flex-direction: column;
+    font-family: sans-serif; */
+  }
+  
+  .myproject-imageIcon{
+      /* background-color: red; */
+      width: 60%;
+      display: flex;
+      float: right;
+  }
+  .myproject-imageIcon button{
+      margin-left: 5%;
+  }
+  .file-column{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif; 
+    padding: 5%;
+    width: 100%;
+    /* background-color: red; */
+  }
+
+  .wmde-markdown-color {
+    margin-top: 2%;
+    background-color: #fff !important;
+    color: black;
+    /* display: flex; */
+}
+
+.product-rating span{
+    display: flex;
+    font-size: 5%;
+}

@@ -1,0 +1,1049 @@
+.home-banner{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    /* background-color: blue; */
+}
+
+.list-category{
+    width:24%;
+    padding: 1%;
+    margin-right: 2%;
+    margin-top: 1%;
+    padding-left: 2%;
+}
+.list-category h2{
+  font-size: large;
+  font-weight: bolder;
+  color: black;
+  text-transform: uppercase;
+}
+.list-category ul {
+  margin-top: 5%;
+}
+.list-category ul li{
+  font-size: small;
+  font-weight: bolder;
+  color: black;
+  text-transform: uppercase;
+  margin-top: 2.5%;
+}
+.home-banner-right{
+    width: 74%;
+    /* background-color: green; */
+    /* padding-top: 1%; */
+}
+.home-slide-right{
+    display: flex;
+}
+.home-slide{
+    width: 70%;
+    /* background-color: red; */
+}
+.home-right-banner{
+    margin-left: 5%;
+    margin-top: 4.5%;
+    width: 95%;
+    padding-top: 2%;
+    /* background-color: black; */
+    margin-bottom: 1%;
+    /* padding-left: 10%; */
+}
+.home-right-banner img{
+  width: 100%;
+  padding-bottom: 3%;
+  /* height: 200px; */
+}
+
+.home-featured{
+    width: 97%;
+    height: 165px;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.home-calegory{
+    width: 97%;
+    height: 165px;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.home-featured-category{
+    display: flex;
+    background-color: red;
+}
+
+.home-featured-title{
+   
+}
+
+.home-featured-title h2{
+    font-size: large;
+    font-weight: bolder;
+    color: black;
+    text-transform: uppercase;
+}
+
+.home-featured-title p{
+    float: right;
+    color: #666666;
+}
+.home-featured-img{
+    display: flex;
+    margin-top: 5%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.home-featured-img img{ 
+    width: 11%;
+    height: 43px;
+    margin-left: 4%;
+    margin-top: 1%;
+}
+.home-calegory-img{
+    width: 98%;
+    /* height: 152px; */
+    display: flex;
+    overflow-x: auto;
+    /* background-color: lightgrey; */
+    padding-top: 1%;
+    padding-bottom: 1.5%;
+}
+.home-calegory-sub{
+    width: 30%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-right:1%;
+    flex-shrink: 0;
+    /* display: inline; */
+}
+.home-calegory-sub{
+
+}
+.home-calegory-sub p{
+    font-size:10px;
+    font-weight: bolder;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+.home-Deals-day{
+    width: 90%;
+    margin: auto;
+    /* background-color: red; */
+    /* height: 30px; */
+    margin-top: 2%;
+    display: flex;
+   margin-left: 3%;
+   padding-bottom: 2.5%;
+}
+.home-Deals-product{
+    width: 65%;
+    height: 410px;
+    /* background-color: black; */
+}
+.home-boxs{
+  background: #FFFFFF;
+  /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.18); */
+  /* padding-top: 2%;
+  padding-bottom: 2%; */
+  /* width: 20%; */
+  background-color: #fff;
+  border-radius:10px;
+}
+.home-Deals-img{
+    /* background-color: green; */
+    width: 100%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.home-Deals-img img{
+    width: 100%;
+    height: 340px;
+}
+.home-Deals-detail{
+    padding-top: 4%;
+    padding-bottom: 1%;
+    padding-left: 4%;
+}
+.home-Deals-detail h3{
+    font-size:16px;
+    font-weight: bolder;
+    color: black;
+    text-transform: uppercase;
+    /* text-align: center; */
+}
+
+.home-Deals-detail h4{
+    font-size:17px;
+    font-weight: bolder;
+    color: #F1352B;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-top: 7%;
+    /* text-align: center; */
+}
+
+.home-Deals-detail h4 small{
+    font-size:17px;
+    font-weight: bolder;
+    color: #666666;
+    text-transform: uppercase;
+    font-weight: bolder;
+    /* margin-top: 10%; */
+}
+.home-Deals-detail ul{
+    margin-top: 3.5%;
+}
+.home-Deals-detail ul li{
+    font-size:13px;
+    font-weight: bolder;
+    color: black;
+    /* text-transform: uppercase; */
+    font-weight: bolder;
+    margin-top: 1.5%;
+}
+.home-Deals-detail button{
+    margin-top: 7%;
+}
+.home-Deals-detail P{
+    font-size:12px;
+    font-weight: bolder;
+    color: black;
+    /* text-transform: uppercase; */
+    font-weight: bolder;
+    margin-top: 1.5%;
+}
+.home-Deals-left{
+    width: 33%;
+    padding-left: 3%;
+    
+    /* background-color: red; */
+    /* margin: auto */
+}
+.home-Deals-left img{
+    width: 85%;
+    margin: auto;
+    height: 180px;
+    margin-top: 2.9%;
+    padding-bottom: 4%;
+    /* margin-bottom: 5%; */
+}
+.home-Deals-nave{
+  border-radius: 5px;
+  background-color: #1ABA1A;
+  height: 40px;
+  margin-bottom: 1.2%;
+  padding-top: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.home-Deals-nave h2{
+  font-size:medium;
+  font-weight: bolder;
+  color: white;
+  text-transform: uppercase;
+}
+
+.home-Deals-nave p{
+  font-size:medium;
+  float: right;
+  color: #fff;
+}
+.home-products{
+  width: 95%;
+  margin: auto;
+}
+.home-products{
+  margin-bottom: 1.2%;
+  padding-top: 1%;
+  padding-left: 1.5%;
+  /* padding-right: 1.5%;  */
+  margin-top: 2%;
+}
+.home-products h3{
+  font-size:medium;
+  font-weight: bolder;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom:1%;
+}
+.home-products-sub{
+  /* border:solid 1px #999999; */
+  display: flex;
+  padding-bottom: 3%;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  /* background-color: red; */
+}
+.products{
+  /* border:solid 1px #999999; */
+  width: 19%;
+  /* height: 250px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  border-radius: 5px;
+  margin-right: 0.5%;
+  margin-top: 1.5%; */
+}
+.products-detail{
+  margin-top: 5%;
+  /* background-color: red; */
+}
+.products-detail h3{
+  font-size:10px;
+  /* float: right; */
+  color: #000;
+  text-align: center;
+}
+
+.products-detail h4{
+  font-size:14px;
+  /* float: right; */
+  color: #000;
+  /* text-align: center; */
+}
+
+.products-detail h4 small{
+  font-size:12px;
+ 
+  color: #666666;
+  /* text-align: center; */
+}
+
+
+.home-easy{
+  width: 95%;
+  margin: auto;
+  margin-bottom: 1.2%;
+  padding-top: 1%;
+  padding-left: 1%;
+  padding-right: 1%; 
+  margin-top: 2%;
+}
+
+.home-easy h3{
+  font-size:medium;
+  font-weight: bolder;
+  color: #000;
+  text-transform: uppercase;
+  /* margin-bottom:2%; */
+}
+.home-easy-sub{
+  /* border:solid 1px #999999; */
+  width: 98%;
+  display: flex;
+  overflow-x: auto;
+  /* background-color: lightgrey; */
+  /* padding-top: 1%; */
+  padding-bottom: 2.5%;
+  /* background-color: red; */
+}
+.project{
+  /* border:solid 1px #999999; */
+  width: 22%;
+  height: 330px;
+  padding-top: 0.2%;
+  padding-bottom: 2%;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  border-radius: 5px;
+  margin-right: 0.5%;
+  margin-top: 1.5%;
+  flex-shrink: 0;
+}
+.products-detail button{
+  float: right;
+}
+.home-project {
+  width: 95%;
+  margin: auto;
+}
+
+.home-project h3{
+  font-size:medium;
+  font-weight: bolder;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom:1%;
+}
+.home-project-sub{
+  /* border:solid 1px #999999; */
+  display: flex;
+  padding-bottom: 1%;
+  overflow-x: auto;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+  /* background-color: red; */
+}
+.home-project-card{
+  width: 29%;
+  padding-top: 1.2%;
+  padding-bottom: 2%;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  border-radius: 5px;
+  margin-right: 0.5%;
+  flex-shrink: 0;
+  /* background-color: red; */
+  /* height: 300px; */
+}
+
+.home-project-card h3{
+  font-size:small;
+  font-weight: bolder;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom:1%;
+}
+.home-project-card p{
+  font-size:small;
+  font-weight: bolder;
+  color: #000;
+  text-transform: uppercase;
+  /* margin-bottom:0.2%; */
+  margin-top: 1.5%;
+}
+.circle-project{
+  width: 100%;
+  /* padding-top: 5px; */
+  /* background-color: #000; */
+  display: flex;
+  margin-top: 1.5%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.image-project {
+  text-align: center;
+  align-items: center; 
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 2.5%;
+  margin-top: 2.5%
+}
+.image-project  img{
+  width: 90%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.home-project-card button{
+  margin-top: 2%;
+  position: relative;
+  left: 60%;
+  top: 2%;
+}
+.Home-footer-banner{
+  width: 95%;
+   margin: auto;
+   display: flex;
+}
+.Home-footer-sub{
+  width: 100%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 2%;
+  margin-top: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn {
+    all: unset;
+    font-size: 0.4rem;
+    padding: 0.575rem 1.5rem;
+    border-radius: 6px !important;
+    transition: all 0.5s ease-in-out;
+    font-weight: 700;
+    display: inline-block;
+    border: 2px solid #FF6443;
+    box-sizing: border-box;
+    color: #FF6443;
+  }
+  
+  .btn a{
+   font-size: 50% !important;
+  }
+  .btn:hover{
+    display: inline-block;
+    border: 2px solid #FF6443;
+    box-sizing: border-box;
+    background: #fff !important;
+    color: #FF6443;
+  }
+  
+  .home {
+    height: inherit;
+  }
+  .facebook{
+    background:  #3D45B1;
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25)
+  }
+  .twitter{
+    background: #49B6FF;
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25)
+  }
+  .instagram{
+    background:  radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25)
+  }
+  .youtube{
+    background: red;
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25)
+  }
+  /* :root {
+    --primary-color: #FF9D11;
+    --lightblue : #3D45B1;
+    --unknow : #AEB3FA;
+    --red: #D80739;
+    --primary-font:'Poppins'
+    
+  } */
+ 
+  .cardRad{
+    background: rgba(22, 22, 22, 0.35);
+    border-radius: 15px;
+    width: 20%;
+    background-color: var(--lightblue);
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .display-1 {
+    font-weight: 700;
+    font-size: 2.8rem;
+    @media screen and (min-width: 768px) {
+      line-height: 4.8rem;
+      font-size: 4rem;
+    }
+  }
+  
+  .orange-underline {
+    border-top: 4px solid #D80739;
+  }
+  .white-underline {
+    border-top: 4px solid #fff;
+  }
+  .primary-color {
+    color: var(--primary-color);
+  }
+  .primary-red {
+    color: var(--red);
+  }
+  /* // .home-page-sub{
+  //   height:400px
+  // } */
+  .awssld__wrapper {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    height: 760px;
+    width: 100%;
+  }
+  .awssld__content {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+     justify-content:left !important; 
+  }
+  
+  
+  
+  .awssld__bullets {
+      /* position: absolute; */
+      /* bottom: -40px; */
+      width: 25%;
+      display: flex;
+      align-items: center;
+      /* // justify-content: center; */
+      float: right;
+      position: relative;
+      /* // background: red; */
+      z-index: 2;
+      bottom: 100px;
+  }
+ 
+  
+  
+  
+  .home-watch-Core{
+    background:url("https://res.cloudinary.com/codepally/image/upload/v1622020607/ridora%20website/dog_du4sk7.svg") no-repeat;
+    /* // background-position: bottom 50%;  */
+   background-position: 5% 10% ;
+   padding-top:5px;
+   padding-bottom:5px;
+   margin-top: 3%;
+  }
+  
+  .home-Core{
+    background:url("https://res.cloudinary.com/codepally/image/upload/v1622022019/ridora%20website/COUSE_ybk39z.svg") no-repeat;
+    /* // background-position: bottom 50%;  */
+   background-position: 10% 0% ;
+   background-size: 100%;
+  /* //  padding-top:10px; */
+   padding-bottom:10px;
+   margin-top: 1%;
+   padding-top: 5%;
+  /* //  background:red; */
+  margin-bottom: 4%;
+  }
+  .home-Core-sub{
+    width: 95%;
+    margin: auto;
+  }
+  
+  .home-Core-layer{
+    background:url("https://res.cloudinary.com/codepally/image/upload/v1622023555/ridora%20website/back-fiest_oy406v.svg") no-repeat;
+    background-size:100%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 30%;
+    padding-bottom:1%;
+    width:100%
+  }
+  
+
+   /* web view */
+  @media (min-width: 1024px)  {
+    .home-slide-body{
+      width: 95%;
+      margin:auto;
+      /* background: red; */
+      margin-bottom: 1%;
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+      margin-top:2%;
+      padding-bottom: 2%;
+  
+    }
+    .home-slide-title{
+      width:50%;
+      margin: auto;
+      text-align: left;
+      /* padding-left: 15%; */
+     padding-top: 2%;
+     /* background: red; */
+      /* top:15% */
+    }
+    .home-slide-title h2{
+      font-size: 125%;
+      font-weight:bold;
+      font-family: "Poppins";
+      color: #fff;
+      margin-top: 2%;
+    }
+    .home-slide-title h2{
+       font-size: 260%;
+       font-weight:bolder;
+       font-family: "Poppins";
+       color: #49B6FF
+    }
+    .home-slide-img img{
+       width:100%;
+       height:400px
+    }
+    .indicators{
+      width: 60%;
+      float: right;
+      /* background: red; */
+      justify-content: flex-end !important;
+      margin-top: 0px !important; 
+      padding-right: 4%;
+      position: relative;
+      bottom: 15px;
+    }
+    .indicator {
+      width: 3%;
+      cursor: pointer;
+      padding: 5px;
+      text-align: center;
+      border-radius: 10px;
+      border: 1px #666 solid;
+      margin-left: 2%;
+     
+    }
+    
+    .indicator.active {
+      color: #fff;
+      background: #666;
+    }
+    
+    .home-slide-sub{
+      display: flex;
+    }
+    .home-slide-sub p{
+      font-size: 125%;
+      font-weight:bold;
+      font-family: "Poppins";
+      color: #fff;
+      margin-top: 2%;
+    }
+    .home-slide-img{
+      width: 100%;
+    }
+    .home-what-sub{
+      width:80%;
+      margin: auto;
+      background:url("https://res.cloudinary.com/codepally/image/upload/v1621955160/ridora%20website/Vector_Pattern_tfm1g0.svg") no-repeat;
+        /* // background-position: bottom 50%;  */
+       background-position: 70% 10% ;
+       display: flex;
+      /* // background:red */
+    }
+      .home-Engine{
+      width: 24% !important;
+      /* padding-top: 8%; */
+    }
+    .home-what-STEM{
+      width: 76%;
+    }
+    .home-sco-body a{
+     margin-left: 5%;
+     font-family: 'Poppins';
+    }
+    .home-icon-sco{
+      width: 30px;
+      height: 30px;
+      /* background: red; */
+      border-radius: 50%;
+      text-align: center;
+      padding-top: 2px;
+      font-size: 120%;
+     margin-right: 4%;
+     color:#fff
+   }
+    .home-what-STEM h2 {
+      font-size: 305%;
+      font-weight:bolder;
+      font-family: 'Poppins' ;
+      color: #031E5D
+    }
+    .home-what-STEM p{
+      width: 90%;
+      font-size: 120%;
+      font-weight:bolder;
+      font-family: 'Poppins' ;
+      color: #000000;
+      text-align: left !important;
+    }
+    .home-what-img{
+     width: 35%;
+     /* background: red; */
+     padding: 0%;
+    }
+    .home-what-img img{
+      position: relative;
+      /* bottom:30px; */
+      width:100%;
+      max-width: 90%;
+    
+    }
+    .home-what-button{
+      background:#031E5D !important;
+      color:#fff !important;
+      /* // width:20%; */
+      text-align:left;
+      margin-top: 2%;
+    }
+    .home-what-button:hover{
+      background:#031E5D;
+      color:#fff;
+      width:20%;
+      text-align:left;
+      text-decoration: none;
+      margin-top: 2%;
+    }
+    .home-tech-and-sci{
+      width: 90%;
+      margin: auto;
+      position: relative;
+      bottom: 20px;
+      display: flex;
+    }
+    
+    .home-tech-body{
+      width: 25%;
+      /* background-color: red; */
+      height: 300px;
+      padding-left: 3%;
+      padding-right: 3%;
+      /* padding-top: 2%; */
+      /* padding-top:15%; */
+      padding-bottom:20%;
+      border-radius: 5px;
+      text-align: center;
+      margin-left: 2%;
+      
+      /* padding-bottom: 10%; */
+    }
+    .home-tech-update{
+      padding-top:7%;
+      padding-bottom:1%;
+      background: #F47960;
+    }
+    .home-tech-Robot{
+    background-color: #10BA9B;
+    }
+    .home-tech-Engine{
+      background-color: #0F1B41;
+    }
+    .home-tech-math-update{
+      padding-top:8%;
+      padding-bottom:15%;
+      background-color: #BD9090
+    }
+  
+    .home-tech-body h3{
+      font-size: 140%;
+      font-family: 'Poppins' ;
+      font-style: normal;
+      font-weight: bold;
+      /* font-size: 300%; */
+      line-height: 42px;
+      /* identical to box height, or 105% */
+      align-items: center;
+      text-align: center;
+      margin-bottom: 5%;
+      color: #ffff;
+      
+    }
+    .home-tech-body p{
+      font-size: 90%;
+      font-family: 'Poppins' ;
+      font-style: normal;
+      font-weight: bold;
+      color:#fff
+      /* font-size: 300%; */
+    }
+    .home-tech-img{
+      /* background:url("https://res.cloudinary.com/codepally/image/upload/v1626686778/ridora%20website/robotics_nj8zub.svg") no-repeat; */
+      height: 10px;
+      background-position: 75% 6% ;
+      background-size: 30%;
+      /* float: right; */
+      width:32%;
+      margin-bottom: 25%;
+    }
+    /* .home-tech-img p{
+      text-align: left;
+      float: left;
+    } */
+    .home-tech-img img{
+      width: 65%;
+      margin-left: 3%;
+      margin-top: 10%;
+    }
+    .home-tech-math{
+      height: 40px;
+      background-position: 75% 6% ;
+      background-size: 30%;
+      /* float: right; */
+      width:100%;
+      margin-bottom: 15%;
+    }
+    .home-tech-math img{
+      width: 20% !important;
+      float: right;
+      /* padding-top: 30px; */
+   
+    }
+    .home-tech-cost{
+   
+      padding-top: 10%
+    }
+    .home-step-by-step{
+      width: 90%;
+      margin: auto;
+      margin-top: 2%;
+      margin-bottom: 1%;
+    }
+    .home-step-by-sub{
+      display: flex;
+    }
+    .home-step-img {
+      width: 50%;
+    }
+    .home-step-img img{
+     width: 100%;
+    }
+    .home-step-write{
+      width: 50%;
+    }
+    .home-step-write h2{
+      font-size: 190%;
+      font-family: 'Poppins' ;
+      font-style: normal;
+      font-weight: bold;
+      /* font-size: 300%; */
+      /* line-height: 42px; */
+      /* identical to box height, or 105% */
+      align-items: left;
+    
+      margin-bottom: 5%;
+      color: #000;
+    }
+    .home-step-write h6{
+      font-size: 96%;
+      font-family: 'Poppins' ;
+      font-style: normal;
+      /* font-weight: bold; */
+      /* font-size: 300%; */
+      /* line-height: 42px; */
+      /* identical to box height, or 105% */
+      align-items: left;
+    
+      margin-bottom: 5%;
+      color: #000;
+    }
+    .home-watch-video{
+     width:84%;
+     background:url("https://res.cloudinary.com/codepally/image/upload/v1622018753/ridora%20website/video-icon_n7ffw2.svg") no-repeat;
+     background-position: 75% 6% ;
+     background-size: 20%;
+     margin: auto;
+     padding-top: 5%;
+    }
+   
+    
+  }
+  
+  
+  
+  
+  /* // moblie view */
+  
+  @media screen and (max-width: 1023px) {
+    .home-fullbody{
+      width: 100%;
+      margin: auto;
+    }
+    .home-tech-and-sci{
+      margin-top: 5%;
+      
+      width: 100%;
+    }
+    .home-slide-title button{
+       width: 40%;
+       /* margin: auto; */
+    }
+    .home-slide-img p {
+      text-align: center;
+      font-family: 'Poppins';
+    }
+    .home-slide-img p img{
+      width:100%;
+      margin: auto;
+      height:300px
+   }
+   .home-sco-body{
+     width: 80%;
+     margin:auto;
+   /* background: red; */
+   }
+   .home-sco-body a{
+    margin-left: 5%;
+    font-family: 'Poppins';
+   }
+   .home-icon-sco{
+     width: 40px;
+     height: 40px;
+     /* background: red; */
+     border-radius: 50%;
+     text-align: center;
+     padding-top: 7px;
+     font-size: 120%;
+    margin-right: 4%;
+    color:#fff;
+    position: relative;
+    top:20px
+  }
+    .home-tech-body{
+      width: 95%;
+      margin: auto;
+      /* background-color: red; */
+      /* padding-left: 3%;
+      padding-right: 3%; */
+      /* padding-top:15%; */
+      padding-bottom:30%;
+      border-radius: 5px;
+       margin-top: 5%;
+       /* margin-bottom: 5%; */
+      text-align: center;
+      /* padding-bottom: 10%; */
+    }
+    .home-tech-update{
+      padding-top:28%;
+      padding-bottom:1%;
+      background: #F47960;
+    }
+  
+    
+
+  }
+  
+    
+  
+  
+  

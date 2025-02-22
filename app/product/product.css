@@ -1,0 +1,115 @@
+.product-nav{
+    background-color: #Fff;
+    width: 99%;
+    margin: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 0.5%;
+    margin-bottom: 1%;
+    border-radius: 10px;
+}
+.product-nav h4{
+    font-size: small;
+    color: black;
+    /* font-weight: bolder; */
+}
+.product-search-body{
+    background-color: #fff;
+    width: 100%;
+    /* margin: auto; */
+    padding-left: 1%;
+    /* padding-right: 1%; */
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 0.5%;
+    margin-bottom: 1%;
+    border-radius: 10px;
+    display: flex;
+}
+.product-category{
+    background-color: #EEEFF6;
+    width: 23%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    height: 65vh;
+    /* height: 300px; */
+}
+.product-category h4{
+    font-size: medium;
+    color: black;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.product-title{
+    width: 90%;
+    background-color: #Fff;
+    /* padding-left: 1%; */
+    /* padding-right: 1%; */
+    padding-top: 1%;
+    padding-bottom: 1%;
+    /* margin-top: 0.5%; */
+    margin-bottom: 4%;
+    border-radius: 5px; 
+    display: flex;
+    margin-top: 10%;
+
+}
+.product-title h5{
+    font-size: medium;
+    color: black;
+    font-weight: bolder;
+    text-align: left;
+    margin-left: 4%;
+    text-transform: capitalize;
+
+   
+}
+.product-div {
+    width: 77%;
+    /* text-align: center; */
+}
+.product-div {
+    margin-left: 3%;
+    margin-top: 1%;
+}
+.product-div h3{
+    font-size:medium;
+    color: black;
+    font-weight: bolder;
+    /* text-align: center; */
+}
+
+.product-loader{
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 20%;
+}
+.product-category ul{
+    margin-top: 5%;
+}
+.product-category ul li{
+    font-size:13px;
+    font-weight: bolder;
+    color: black;
+    /* text-transform: uppercase; */
+    font-weight: bolder;
+    margin-top: 4%;
+    margin-left: 1%;
+    text-transform: capitalize;
+}
+
+.products-sub{
+    margin-top: 1%; 
+    /* border:solid 1px #999999; */
+    display: flex;
+    padding-bottom: 3%;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  
+    /* background-color: red; */
+  }

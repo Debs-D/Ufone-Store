@@ -1,0 +1,15 @@
+.navBar-banner{
+    display: flex;
+    /* background-color: green; */
+    width: 98%;
+    margin: auto;
+}
+.navBar-left{
+    width: 40%;
+    margin-left: 2%;
+    /* background-color: black; */
+}
+.navBar-right{
+  width: 55%;
+  /* background-color: blue; */
+}
