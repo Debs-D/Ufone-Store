@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono,Inter } from "next/font/google";
-import Navbar  from "./components/nav/nav"
-import Footer  from "./components/footer/footer"
-import Context from './Context/Context';
-import { Flip, ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { Geist, Geist_Mono, Inter } from "next/font/google";
+import Navbar from "./components/nav/nav";
+import Footer from "./components/footer/footer";
+import Context from "./Context/Context";
+import { Flip, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -18,9 +18,9 @@ const geistMono = Geist_Mono({
 });
 
 const geisInter = Inter({
-  subsets: ['latin'],
-  variable: '--font-inter',
-  display: 'swap',
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -35,20 +35,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      
-      <body className={`${geistSans.variable} ${geistMono.variable} ${geisInter.variable}  antialiased`}>
-        <ToastContainer transition={Flip} position='top-center' />
-     
-        <Context>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} ${geisInter.variable}  antialiased`}
+      >
+        <ToastContainer transition={Flip} position="top-center" />
 
-        <Navbar />
-          <div className="layout-body">
-              {children}
-          </div>
-      
+        <Context>
+          <Navbar />
+          <div className=" layout-body">{children}</div>
         </Context>
-      
-        <Footer/>
+
+        <Footer />
       </body>
     </html>
   );

@@ -40,13 +40,11 @@ const Navbar = () => {
     push(`/product?name=${searchTerm}`);
   };
 
-  //  <header className="">
-
-  //       <nav className="nav-bar flex flex-wrap items-center justify-between px-3 py-2 lg:px-20">
-  //         <div className="md:flex hidden  flex-no-shrink items-center mr-6 py-3 px-2 text-grey-darkest">
-  //         </div>
-  //         </nav>
-  //   </header>
+  <header className="">
+    <nav className="nav-bar flex flex-wrap items-center justify-between px-3 py-2 lg:px-20">
+      <div className="md:flex hidden  flex-no-shrink items-center mr-6 py-3 px-2 text-grey-darkest"></div>
+    </nav>
+  </header>;
   return (
     <>
       <nav className="bg-white border-white-200 dark:bg-white-900">
@@ -108,7 +106,7 @@ const Navbar = () => {
 
             <a
               href="/wishlist"
-              className="flex text-sm bg-gray-800 rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600 pr-3"
+              className="flex text-sm bg-[#fe0804]   rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600 pr-3"
               id="user-menu-button"
               aria-expanded="false"
               data-dropdown-toggle="user-dropdown"
@@ -127,7 +125,7 @@ const Navbar = () => {
 
             <a
               href="/cart"
-              className="flex text-sm bg-gray-800 rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600 pr-3"
+              className="flex text-sm bg-[#fe0804]  rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600 pr-3"
               id="user-menu-button"
               aria-expanded="false"
               data-dropdown-toggle="user-dropdown"
@@ -251,6 +249,16 @@ const Navbar = () => {
                     Services
                   </a>
                 </li>
+
+                <li>
+                  <a
+                    href="https://www.ufuon.com/"
+                    target={"_blank"}
+                    className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  >
+                    My Project
+                  </a>
+                </li>
                 <li>
                   <a
                     href="https://www.ufuon.com/contact"
@@ -274,17 +282,43 @@ const Navbar = () => {
           }
         </div>
       </nav>
-      <div className="bg-rose-500 border-white-200 dark:bg-white-900 mt-2 pt-2 pb-2  rounded-xl	  items-left justify-between">
+      <div className="bg-blue-600 border-white-200 dark:bg-white-900 mt-2 pt-2 pb-2  rounded-xl	  items-left justify-between">
         <div className="navBar-banner">
-          <div className="navBar-left">
+          <div className="navBar-left w-full px-2">
             <div className="max-w-lg mx-auto ml-2 inline-block;">
               <div className="flex">
                 {
-                  //     <label htmlFor="search-dropdown" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Your Email</label>
-                  //     <button id="dropdown-button" data-dropdown-toggle="dropdown" className="flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center text-gray-900 bg-gray-100 border border-white-300 rounded-s-lg hover:bg-white-200 focus:ring-4 focus:outline-none focus:ring-write-100 dark:bg-white-700 dark:hover:bg-white-600 dark:focus:ring-white-700 dark:text-black dark:border-gray-600" type="button">All categories <svg className="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                  //       <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4"/>
-                  //     </svg>
-                  // </button>
+                  <>
+                    <label
+                      htmlFor="search-dropdown"
+                      className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
+                    >
+                      Your Email
+                    </label>
+                    <button
+                      id="dropdown-button"
+                      data-dropdown-toggle="dropdown"
+                      className="flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center text-gray-900 bg-gray-100 border border-white-300 rounded-s-lg hover:bg-white-200 focus:ring-4 focus:outline-none focus:ring-write-100 dark:bg-white-700 dark:hover:bg-white-600 dark:focus:ring-white-700 dark:text-black dark:border-gray-600"
+                      type="button"
+                    >
+                      All categories{" "}
+                      <svg
+                        className="w-2.5 h-2.5 ms-2.5"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 10 6"
+                      >
+                        <path
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="m1 1 4 4 4-4"
+                        />
+                      </svg>
+                    </button>
+                  </>
                 }
 
                 <div className="relative w-full">
@@ -300,7 +334,7 @@ const Navbar = () => {
                   <button
                     onClick={Search}
                     type="submit"
-                    className="absolute top-0 end-0 p-2.5 text-sm font-medium h-full text-white bg-blue-700 rounded-e-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                    className="absolute top-0 end-0 p-2.5 text-sm font-medium h-full text-white bg-[#fe0804] rounded-e-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                   >
                     <svg
                       className="w-4 h-4"
@@ -323,8 +357,8 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          <div className="navBar-right">
-            <div className="grid grid-cols-3 pt-2">
+          <div className="navBar-right hidden md:flex">
+            <div className="flex justify-between w-full pt-2">
               <div>free shipping over $199</div>
               <div>30 days money back</div>
               <div>100% secure payment</div>
