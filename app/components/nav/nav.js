@@ -23,8 +23,9 @@ const Navbar = () => {
   const [data, setData] = useState([]);
   const { push } = useRouter();
   const [filteredData, setFilteredData] = useState([]);
+  const router = useRouter();
   const [searchTerm, setSearchTerm] = useState("");
-  // const navigate = useNavigate()
+  // const navigate = useNavigate();
 
   useEffect(() => {
     getCart(setProceed, setCart, authToken);
@@ -34,6 +35,12 @@ const Navbar = () => {
   const handleSearch = (event) => {
     console.log("--------just search------->", event.target.value);
     setSearchTerm(event.target.value);
+  };
+
+  const executeSearch = () => {
+    if (searchTerm.trim()) {
+      router.push(`/product?name=${encodeURIComponent(searchTerm)}`);
+    }
   };
 
   const Search = () => {
@@ -332,7 +339,7 @@ const Navbar = () => {
                     required
                   />
                   <button
-                    onClick={Search}
+                    onClick={executeSearch}
                     type="submit"
                     className="absolute top-0 end-0 p-2.5 text-sm font-medium h-full text-white bg-[#fe0804] rounded-e-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                   >

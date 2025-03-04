@@ -9,7 +9,7 @@ const CategorySide = (props) => {
   // const { posts, count } = await getData(page, cat);
 
   return (
-    <div className="cardbox list-category">
+    <div className="hidden md:block cardbox list-category">
       <h2 className="font-Inter">Category</h2>
 
       <ul>

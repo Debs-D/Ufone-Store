@@ -1,0 +1,15 @@
+.slide-container {
+  width: 100%;
+  margin: auto;
+}
+
+.home-slide-img img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .home-slide-img img {
+    height: 50vw;
+  }
+}

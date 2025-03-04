@@ -52,13 +52,13 @@ export default async function Home() {
                 <SlideShow />
               </div>
               <div>
-                <div className="home-right-banner">
+                <div className="home-right-banner hidden md:block">
                   <img
                     src="https://res.cloudinary.com/codepally/image/upload/v1734638009/div.img_eqrqli.png"
                     alt=""
                   />
                 </div>
-                <div className="home-right-banner">
+                <div className="home-right-banner hidden md:block">
                   <img
                     src="https://res.cloudinary.com/codepally/image/upload/v1734638009/slider6.png_khqpjz.png"
                     alt=""
@@ -124,53 +124,59 @@ export default async function Home() {
 
         <div className="home-Deals-day">
           <div className="home-Deals-product">
-            <div className="home-Deals-nave">
-              <p className="font-Inter">View All </p>
-              <h2 className="font-Inter">featured brands</h2>
+            <div className="home-Deals-nave w-full p-4 flex justify-between items-center bg-red-600">
+              <p className="font-Inter text-white text-sm cursor-pointer">
+                View All
+              </p>
+              <h2 className="font-Inter text-white text-lg font-bold uppercase">
+                Featured Brands
+              </h2>
             </div>
             <div className="grid grid-cols-2">
-              <div className="home-Deals-img">
+              <div className="home-Deals-img p-2">
                 <img
                   src="https://res.cloudinary.com/codepally/image/upload/v1734707889/prod5.png_siiksq.png"
-                  alt="image"
+                  alt="Xioma Redmi Note 11 Pro 256GB 2023, Black Smartphone"
+                  className="w-full h-auto object-cover max-h-60"
                 />
               </div>
-              <div className="home-Deals-detail">
-                <h3>Xioma Redmi Note 11 Pro 256GB 2023, Black Smartphone</h3>
-                <h4>
-                  $569.00 <small>759.00</small>
-                </h4>
-                <ul>
+
+              <div className="home-Deals-detail p-4">
+                <h3 className="text-base font-semibold mb-2">
+                  Xioma Redmi Note 11 Pro 256GB 2023, Black Smartphone
+                </h3>
+                <h3 className="text-lg font-bold text-red-500 mb-2">
+                  $569.00{" "}
+                  <small className="text-gray-500 line-through">$759.00</small>
+                </h3>
+                <ul className="list-disc list-inside mb-4 text-sm">
                   <li>
-                    {" "}
                     Intel LGA 1700 Socket: Supports 13th & 12th Gen Intel Core
                   </li>
                   <li>
-                    {" "}
-                    Intel LGA 1700 Socket: Supports 13th & 12th Gen Intel Core
+                    Commanding Power Design: Twin 16+1+2 Phases Digital VRM
                   </li>
                 </ul>
 
-                <button
-                  type="button"
-                  className="px-3 py-2 text-xs font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                >
-                  FREE SHIPPING
-                </button>
-
-                <button
-                  type="button"
-                  className="px-3 py-2 ml-5 text-xs font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                >
-                  FREE GIFT
-                </button>
-
-                <div>free gift</div>
+                <div className="flex flex-wrap gap-2">
+                  <button
+                    type="button"
+                    className="px-3 py-2 text-xs font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
+                  >
+                    FREE SHIPPING
+                  </button>
+                  <button
+                    type="button"
+                    className="px-3 py-2 text-xs font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
+                  >
+                    FREE GIFT
+                  </button>
+                </div>
                 <p> Commanding Power Design: Twin 16+1+2 Phases Digital VRM </p>
               </div>
             </div>
           </div>
-          <div className="home-Deals-left">
+          <div className="home-Deals-left hidden lg:block">
             <img
               src="https://res.cloudinary.com/codepally/image/upload/v1734732026/Main_Section_Link_ban2.png_efxhzb.png"
               alt="img"
@@ -201,14 +207,15 @@ export default async function Home() {
                 src="https://res.cloudinary.com/codepally/image/upload/v1734800197/prod16.jpg_zydaqq.png"
                 alt="img"
               />
+
               <div className="products-detail">
                 <h3 className="font-Inter">
                   SORE Simply Brew Compact Filter Drip Coffee Maker
                 </h3>
 
-                <h4>
+                <h3>
                   $1,259.00 <small>$1,469.00</small>
-                </h4>
+                </h3>
 
                 <button
                   type="button"
@@ -229,9 +236,9 @@ export default async function Home() {
                   SORE Simply Brew Compact Filter Drip Coffee Maker
                 </h3>
 
-                <h4>
+                <h3>
                   $1,259.00 <small>$1,469.00</small>
-                </h4>
+                </h3>
 
                 <button
                   type="button"
@@ -252,9 +259,9 @@ export default async function Home() {
                   SORE Simply Brew Compact Filter Drip Coffee Maker
                 </h3>
 
-                <h4>
+                <h3>
                   $1,259.00 <small>$1,469.00</small>
-                </h4>
+                </h3>
 
                 <button
                   type="button"
@@ -275,9 +282,9 @@ export default async function Home() {
                   SORE Simply Brew Compact Filter Drip Coffee Maker
                 </h3>
 
-                <h4>
+                <h3>
                   $1,259.00 <small>$1,469.00</small>
-                </h4>
+                </h3>
 
                 <button
                   type="button"
@@ -298,9 +305,9 @@ export default async function Home() {
                   SORE Simply Brew Compact Filter Drip Coffee Maker
                 </h3>
 
-                <h4>
+                <h3>
                   $1,259.00 <small>$1,469.00</small>
-                </h4>
+                </h3>
 
                 <button
                   type="button"
