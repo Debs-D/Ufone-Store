@@ -302,33 +302,35 @@ const Navbar = () => {
                     >
                       Your Email
                     </label>
-                    <button
-                      id="dropdown-button"
-                      data-dropdown-toggle="dropdown"
-                      className="flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center text-gray-900 bg-gray-100 border border-white-300 rounded-s-lg hover:bg-white-200 focus:ring-4 focus:outline-none focus:ring-write-100 dark:bg-white-700 dark:hover:bg-white-600 dark:focus:ring-white-700 dark:text-black dark:border-gray-600"
-                      type="button"
-                    >
-                      All categories{" "}
-                      <svg
-                        className="w-2.5 h-2.5 ms-2.5"
-                        aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 10 6"
-                      >
-                        <path
-                          stroke="currentColor"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth="2"
-                          d="m1 1 4 4 4-4"
-                        />
-                      </svg>
-                    </button>
+                    {/* 
+<button
+  id="dropdown-button"
+  data-dropdown-toggle="dropdown"
+  className="flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center text-gray-900 bg-gray-100 border border-white-300 rounded-s-lg hover:bg-white-200 focus:ring-4 focus:outline-none focus:ring-write-100 dark:bg-white-700 dark:hover:bg-white-600 dark:focus:ring-white-700 dark:text-black dark:border-gray-600"
+  type="button"
+>
+  All categories{" "}
+  <svg
+    className="w-2.5 h-2.5 ms-2.5"
+    aria-hidden="true"
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 10 6"
+  >
+    <path
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
+      d="m1 1 4 4 4-4"
+    />
+  </svg>
+</button>
+*/}
                   </>
                 }
 
-                <div className="relative w-full">
+                <form className="relative w-full">
                   <input
                     type="text"
                     value={searchTerm}
@@ -339,7 +341,10 @@ const Navbar = () => {
                     required
                   />
                   <button
-                    onClick={executeSearch}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      executeSearch();
+                    }}
                     type="submit"
                     className="absolute top-0 end-0 p-2.5 text-sm font-medium h-full text-white bg-[#fe0804] rounded-e-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                   >
@@ -360,7 +365,7 @@ const Navbar = () => {
                     </svg>
                     <span className="sr-only">Search</span>
                   </button>
-                </div>
+                </form>
               </div>
             </div>
           </div>
