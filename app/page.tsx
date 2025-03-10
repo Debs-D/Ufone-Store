@@ -16,7 +16,6 @@ async function fetchProducts() {
   );
   // next: { revalidate: 10 }
   const data = await res.json();
-  console.log("show----article---------------------data>", data);
   return data;
 }
 
